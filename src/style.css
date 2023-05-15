@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    background-color: hsl(185, 75%, 39%);
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.bg_blue{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.bg_blue img{
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pic_profile{
+    margin: 0 auto;
+    top: 90px;
+    position: absolute;
+    z-index: 3;
+}
+
+.pic_profile img{
+    border-radius: 50px;
+    border: 4px #fff solid;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.info_title{
+    display: flex;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+
+.info_age{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-left: 20px;
+}
+
+.info_city{
+    color: hsl(0, 0%, 59%);
+    margin-top: 10px;
+}
+
+.info_con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.info_followers,
+.info_likes,
+.info_photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_con_p{
+    color: hsl(0, 0%, 59%);
+}
+
+.info_con_title{
+    color: hsl(229, 23%, 23%);
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+
+}
+
+.attribution a {
+         color: hsl(228, 45%, 44%); 
+}
