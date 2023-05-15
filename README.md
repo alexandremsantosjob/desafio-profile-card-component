@@ -14,8 +14,8 @@ Desktop
 
 ### Links
 
-- Solution URL: <a href="https://www.frontendmentor.io/solutions/order-summary-component-flex-QJHPIlivWD"> Frontendmentor</a>
-- Live Site URL: <a href="https://alexandremsantosjob.github.io/desafio-order-summary-component/"> GitHub</a>
+- Solution URL: <a href="https://www.frontendmentor.io/solutions/profile-card-component-flex-RqR4H3nm9g"> Frontendmentor</a>
+- Live Site URL: <a href="https://alexandremsantosjob.github.io/desafio-profile-card-component/"> GitHub</a>
 
 
 ### Built with
